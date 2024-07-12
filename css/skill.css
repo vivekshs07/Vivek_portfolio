@@ -1,0 +1,136 @@
+.skillset{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height:40vh;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+}
+
+.s1{
+    width: 400px;
+    border-radius: 1vw;
+    height: 200px;
+    border: 2px solid #5ae4a8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+.s1>i{
+    font-size: 5vw;
+    position: static;
+    color: #5ae4a8;
+}
+.s1 h1{
+    color: #1c2125;
+    text-transform: uppercase;
+}
+
+.skill_info{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.front{
+    width: 100%;
+    margin-top: 5vw;
+}
+.front>h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #5ae4a8;
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+
+.backend>h1{
+    margin-top: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5ae4a8;
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+.others{
+    margin-bottom: 5vw;
+}
+.others>h1{
+    margin-top: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5ae4a8;
+    font-weight: 600;
+    font-size: 4vw;
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .skillset{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height:50vh;
+        margin-top: 10vw;
+        gap:5vw;
+    }
+    .s1>i{
+        display: block;
+        font-size: 15vw;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+    .skillset{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height:50vh;
+        margin-top: 20vw;
+        gap:5vw;
+    }
+    .s1{
+        width: 350px;
+        border-radius: 1vw;
+        height: 200px;
+        border: 2px solid #5ae4a8 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1vw;
+    }
+    .front{
+        margin-top: 20vw;
+    }
+    .front>h1{
+        font-size: 8vw;
+
+    }
+    .backend{
+        margin-top: 20vw;
+    }
+    .backend>h1{
+        font-size: 8vw;
+
+    }
+    .others>h1{
+        font-size: 8vw;
+
+    }
+    .others{margin-top: 20vw;}
+    .s1>i{
+        display: block;
+        font-size: 20vw;
+    }
+    .backend img{
+        width: 50px;
+    }
+
+
+}

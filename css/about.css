@@ -1,0 +1,346 @@
+.information>img {
+    width: 400px;
+    margin-right: 8vw;
+}
+
+.info {
+    margin-top: 4vw;
+    width: 100%;
+    padding: 4vw;
+
+
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information h1 {
+    font-weight: 900;
+    font-size: 4vw;
+    color: #5ae4a8;
+    text-transform: uppercase;
+
+
+}
+
+.information div {
+    margin-top: 5vw;
+    width: 60%;
+}
+
+.information div p {
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: #1c2125;
+    padding: 2vw 0;
+
+}
+
+/* .main {
+    background-color: #fff;
+} */
+
+.why>img {
+    width: 400px;
+    margin-left: 0vw;
+}
+
+.why {
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why div {
+    margin-top: 5vw;
+    width: 50%;
+    padding-right: 5vw;
+}
+
+.why div h1 {
+    font-weight: 900;
+    font-size: 4vw;
+    color: #5ae4a8;
+    text-transform: uppercase;
+
+}
+
+.why div p {
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: #1c2125;
+    padding: 2vw 0;
+
+}
+
+.choose {
+    margin-top: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose div {
+    margin-top: 5vw;
+    width: 60%;
+}
+
+.choose div h1 {
+    font-weight: 900;
+    font-size: 4vw;
+    color: #5ae4a8;
+    text-transform: uppercase;
+
+}
+
+.choose>img {
+    width: 400px;
+    margin-right: 8vw;
+}
+
+.choose div>p {
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    font-size: 1.5vw;
+    color: #1c2125;
+    padding: 2vw 0;
+
+}
+
+.choose button a {
+
+
+    text-decoration: none;
+    color: #1c2125;
+    font-weight: 900;
+
+
+}
+
+
+@media only screen and (max-width:767px) {
+    .information>img {
+        width: 200px;
+        margin-right: 0vw;
+        display: none;
+    }
+
+    .info {
+        margin-top: 4vw;
+        width: 100%;
+        padding: 4vw;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+    }
+
+    .information h1 {
+        font-weight: 900;
+        font-size: 8.5vw;
+        color: #5ae4a8;
+    }
+
+    .information div {
+        margin-top: 5vw;
+        width: 90%;
+    }
+
+    .information div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 4.5vw;
+        color: #1c2125;
+        padding: 2vw 0;
+    }
+
+    /* .main {
+        background-color: #fff;
+    } */
+
+    .why img {
+        width: 350px;
+        margin-right: 10vw;
+    }
+
+    .why {
+        margin-top: 8vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        /* align-items: center; */
+        width: 100%;
+    }
+
+    .why div {
+        margin-top: 5vw;
+        width: 90%;
+    }
+
+    .why>div>h1 {
+        font-weight: 900;
+        font-size: 8.5vw;
+        color: #5ae4a8;
+
+    }
+
+    .why div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 4.5vw;
+        color: #1c2125;
+        padding: 2vw 0;
+
+    }
+
+    .choose {
+        margin-top: 20vw;
+        text-align: center;
+        width: 100%;
+    }
+
+    .choose div {
+        margin-top: 5vw;
+        width: 90%;
+    }
+
+    .choose div h1 {
+        font-weight: 900;
+        font-size: 8.5vw;
+        color: #5ae4a8;
+
+    }
+
+    .choose div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 4.5vw;
+        color: #1c2125;
+        padding: 2vw 0;
+
+    }
+
+    .choose img {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .information>img {
+        width: 400px;
+        margin-right: 8vw;
+    }
+
+    .info {
+        margin-top: 4vw;
+        width: 100%;
+        padding: 4vw;
+
+
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .information h1 {
+        font-weight: 900;
+        font-size: 5.5vw;
+        color: #5ae4a8;
+
+    }
+
+    .information div {
+        margin-top: 5vw;
+        width: 60%;
+    }
+
+    .information div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 2vw;
+        color: #1c2125;
+        padding: 2vw 0;
+
+    }
+
+    /* .main {
+    background-color: #fff; */
+
+    .why>img {
+        width: 400px;
+        margin-left: 0vw;
+    }
+
+    .why {
+        margin-top: 8vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .why div {
+        margin-top: 5vw;
+        width: 50%;
+        padding-right: 5vw;
+    }
+
+    .why div h1 {
+        font-weight: 900;
+        font-size: 5.5vw;
+        color: #5ae4a8;
+    }
+
+    .why div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 2vw;
+        color: #1c2125;
+        padding: 2vw 0;
+
+    }
+
+    .choose {
+        margin-top: 8vw;
+        margin-bottom: 4vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .choose div h1 {
+        font-weight: 900;
+        font-size: 5.5vw;
+        color: #5ae4a8;
+
+    }
+
+    .choose img {
+        width: 400px;
+        margin-right: 8vw;
+    }
+
+    .choose div p {
+        /* text-transform: uppercase; */
+        font-weight: 900;
+        font-size: 2vw;
+        color: #1c2125;
+        padding: 2vw 0;
+
+    }
+
+    .choose button a {
+        text-decoration: none;
+        color: #1c2125;
+        font-weight: 900;
+
+    }
+}

@@ -1,0 +1,82 @@
+.project {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 4vw;
+    margin: 2vw;
+    margin-top: 4vw;
+}
+
+.project img {
+    width: 45%;
+    border-radius: 1vw;
+    height: 60%;
+}
+
+.project .desc {
+    width: 45%;
+}
+
+.project .desc h1,
+h2 {
+    color: #5ae4a8;
+}
+
+.project .desc p,
+li {
+    font-weight: 900;
+    color: #1a2e35;
+}
+
+.project .desc h3 {
+    color: #5ae4a8;
+    font-size: 3vw;
+    margin-top: 2vw;
+    width: 100%;
+}
+
+.project .desc h3 a {
+    font-weight: 900;
+    color: #1a2e35;
+    font-family: 1vw;
+}
+
+@media only screen and (max-width:767px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 4vw;
+    }
+
+    .project img {
+        width: 90%;
+        border-radius: 1vw;
+        height: 30%;
+    }
+
+    .project .desc {
+        width: 100%;
+        margin-left: 5vw;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 4vw;
+    }
+
+    .project img {
+        width: 90%;
+        border-radius: 1vw;
+        height: 40%;
+    }
+
+    .project .desc {
+        width: 100%;
+        margin-left: 5vw;
+    }
+}
