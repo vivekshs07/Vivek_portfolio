@@ -30,5 +30,15 @@ function loco() {
 
 
 }
+ document.querySelector("#menu").addEventListener("click", () => {
+        gsap.to(".ham", {
+            left: 0, duration: 0.5, ease: 'power2.inOut'
+        });
+    })
+    document.querySelector("#close").addEventListener("click", () => {
+        gsap.to(".ham", {
+            left: '-500px', duration: 0.5, ease: 'power2.inOut'
+        });
+    })
 
 loco()
